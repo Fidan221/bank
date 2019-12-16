@@ -1,0 +1,9 @@
+s = input("enter string: ")
+if s.isnumeric():
+    print('Numeric string')
+elif s.isalpha():
+    print('Alphaberic string')
+elif s.isnum():
+    print('Alphanumeric string')
+else:
+    print ('Normal string')
